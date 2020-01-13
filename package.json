@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "ngx-translate-messageformat-compiler",
+  "name": "ngx-translate-messageformat-compiler-ivy",
   "version": "4.5.0",
   "description": "Compiler for ngx-translate that uses messageformat.js to compile translations using ICU syntax for handling pluralization and gender",
   "ngPackage": {
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lephyrus/ngx-translate-messageformat-compiler.git"
+    "url": "git+https://github.com/pontino/ngx-translate-messageformat-compiler.git"
   },
   "keywords": [
     "angular",
@@ -49,7 +49,7 @@
   "module": "index.js",
   "typings": "index.d.ts",
   "peerDependencies": {
-    "@angular/core": "^6.0.0 || ^7.0.0 || ^8.0.0",
+    "@angular/core": "^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",
     "@ngx-translate/core": "^10.0.0 || ^11.0.0",
     "messageformat": "^2.0.5"
   },
